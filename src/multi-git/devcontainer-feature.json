@@ -1,0 +1,10 @@
+{
+  "id": "multi-git",
+  "name": "Multi-Account Git Config Verifier",
+  "version": "1.0.0",
+  "description": "Verifies conditional Git identity and SSH config for multi-account use by relying on host file mounts.",
+  
+  "installsAfter": [
+    "ghcr.io/devcontainers/features/git:latest",
+  ],
+}
